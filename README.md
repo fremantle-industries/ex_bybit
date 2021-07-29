@@ -19,7 +19,7 @@ end
 ## Requirements
 
 - Erlang 22+
-- Elixir 1.10+
+- Elixir 1.11+
 
 ## API Documentation
 
@@ -27,13 +27,15 @@ https://bybit-exchange.github.io/docs/inverse/#t-introduction
 
 ## REST API
 
+### Derivatives
+
 #### Market Data Endpoints
 
 - [ ] `GET /v2/public/orderBook/L2`
 - [ ] `GET /v2/public/kline/list`
 - [ ] `GET /v2/public/tickers`
 - [ ] `GET /v2/public/trading-records`
-- [ ] `GET /v2/public/symbols`
+- [x] `GET /v2/public/symbols`
 - [ ] `GET /v2/public/liq-records`
 - [ ] `GET /v2/public/mark-price-kline`
 - [ ] `GET /v2/public/index-price-kline`
@@ -83,6 +85,25 @@ https://bybit-exchange.github.io/docs/inverse/#t-introduction
 
 - [ ] `GET /v2/public/time`
 - [ ] `GET /v2/public/announcement`
+
+### Spot
+
+#### Market Data Endpoints
+
+- [ ] `GET /spot/v1/symbols`
+- [ ] `GET /spot/quote/v1/depth`
+- [ ] `GET /spot/quote/v1/depth/merged`
+- [ ] `GET /spot/quote/v1/trades`
+- [ ] `GET /spot/quote/v1/kline`
+- [ ] `GET /spot/quote/v1/ticker/24hr`
+- [ ] `GET /spot/quote/v1/ticker/price`
+- [ ] `GET /spot/quote/v1/ticker/book_ticker`
+
+#### Account Data Endpoints
+
+#### Wallet Data Endpoints
+
+#### API Data Endpoints
 
 ## Authors
 
