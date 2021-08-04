@@ -1,5 +1,5 @@
 # ExBybit
-[![Build Status](https://github.com/fremantle-capital/ex_bybit/workflows/test/badge.svg?branch=main)](https://github.com/fremantle-capital/ex_bybit/actions?query=workflow%3Atest)
+[![Build Status](https://github.com/fremantle-industries/ex_bybit/workflows/test/badge.svg?branch=main)](https://github.com/fremantle-industries/ex_bybit/actions?query=workflow%3Atest)
 [![hex.pm version](https://img.shields.io/hexpm/v/ex_bybit.svg?style=flat)](https://hex.pm/packages/ex_bybit)
 
 Bybit API Client for Elixir
@@ -11,7 +11,7 @@ Add the `ex_bybit` package to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:ex_bybit, "~> 0.1.0"}
+    {:ex_bybit, "~> 0.0.1"}
   ]
 end
 ```

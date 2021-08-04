@@ -4,7 +4,7 @@ defmodule ExBybit.MixProject do
   def project do
     [
       app: :ex_bybit,
-      version: "0.1.0",
+      version: "0.0.1",
       elixir: "~> 1.11",
       package: package(),
       start_permanent: Mix.env() == :prod,
@@ -43,7 +43,7 @@ defmodule ExBybit.MixProject do
     %{
       licenses: ["MIT"],
       maintainers: ["Alex Kwiatkowski"],
-      links: %{"GitHub" => "https://github.com/fremantle-capital/ex_bybit"}
+      links: %{"GitHub" => "https://github.com/fremantle-industries/ex_bybit"}
     }
   end
 end
